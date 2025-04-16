@@ -1,91 +1,97 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-      initial-scale=1.0">
-    <meta name="description" content="Exemplo de página HTML5 básica">
-    <meta name="author" content="Seu Nome">
-    <title>Página HTML5 Básica</title>
-    <style>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMBraOSM - Novo Site em Construção</title>
+  <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background: #007BFF;
-      color: white;
-      padding: 10px 0;
+      background-color: #eaf5ef;
+      color: #1b4332;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
       text-align: center;
     }
-    nav {
-      background: #333;
-      color: white;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0;
+
+    header {
+      background-color: #2d6a4f;
+      color: #ffffff;
+      padding: 20px 0;
+      width: 100%;
+      margin-bottom: 30px;
     }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 20px;
-    }
-    section {
+
+    .highlight {
+      font-size: 1.2rem;
       margin-bottom: 20px;
     }
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
+
+    .links a {
+      display: block;
+      margin: 10px 0;
+      color: #2d6a4f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      max-width: 600px;
+    }
+
+    .email {
+      margin-top: 10px;
+      color: #40916c;
     }
   </style>
-  </head>
-  <body>
-    <nav> <br>
-    </nav>
-    <main>
-      <section id="sobre">
+</head>
+<body>
+  <header>
+    <h1>UMBraOSM</h1>
+  </header>
+
+  <div class="highlight">
+    <section id="sobre">
         <div align="center"><br>
           <img moz-do-not-send="true" src="images/Logo_Umbraosm.jpg"
             alt="logo" width="286" height="80"></div>
-        <h2 align="center">Estamos construindo um novo site! <br>
-        </h2>
-        <div align="center"><b>Visite Nossas Redes Sociais!</b><br>
-          <b>Grupo no Telegram: </b><a moz-do-not-send="true"
-            href="https://t.me/grupoumbraosm">https://t.me/grupoumbraosm</a><br>
-          <b>Youtube:</b> <a moz-do-not-send="true"
-            href="https://www.youtube.com/@umbraosm">https://www.youtube.com/@umbraosm</a><br>
-          <b>Instagram:</b> <a moz-do-not-send="true"
-            href="https://www.instagram.com/umbraosmbrasil/">https://www.instagram.com/umbraosmbrasil/</a><br>
-        </div>
-      </section>
-      <br>
-    </main>
-    <footer>
-      <p><b>Endereço para Correspondência:</b><br>
-        Rua Frei Matias Tevis, N.285 Sala.1201 -&nbsp; HUB PLURAL)
-        CXPST: 067 - Bairro: Ilha do Leite - Cidade: Recife/PE - CEP:
-        50070-465<br>
-        © 2024 <b>Umbraosm</b> - União dos Mapeadores Brasileiro do
-        Openstreetmap - Todos os direitos reservados.&nbsp; <br>
-        <b>E-mail: </b>contato@umbraosm.com.br<br>
-      </p>
-    </footer>
-    <br>
-    <br>
-  </body>
+    <p>Estamos construindo um novo site!</p>
+      <section id="sobre">
+        <div align="center"><br>
+          <img moz-do-not-send="true" src="images/Logo_Umbraosm_morro.jpg"
+            alt="logo" width="286" height="80"></div>
+    <p>Visite Nossas Redes Sociais!</p>
+  </div>
+
+  <div class="links">
+    <a href="https://t.me/grupoumbraosm" target="_blank">Grupo no Telegram</a>
+    <a href="https://www.youtube.com/@umbraosm" target="_blank">YouTube</a>
+    <a href="https://www.instagram.com/umbraosmbrasil/" target="_blank">Instagram</a>
+  </div>
+
+  <div class="footer">
+    <p><strong>Endereço para Correspondência:</strong><br>
+    Rua Frei Matias Tevis, N.285 Sala.1201 - (HUB PLURAL)<br>
+    CXPST: 067 - Bairro: Ilha do Leite - Cidade: Recife/PE - CEP: 50070-465</p>
+
+    <p>© 2024 Umbraosm - União dos Mapeadores Brasileiros do OpenStreetMap - Todos os direitos reservados.</p>
+    
+    <p class="email">E-mail: contato@umbraosm.com.br</p>
+  </div>
+</body>
 </html>
